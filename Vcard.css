@@ -5,12 +5,14 @@ body {
 }
 
 .container {
+    display:flex;
+    flex-direction: column;
     padding:10px;
     color:chocolate;
     border: 2px solid black;
     margin:5px;
-    width: 800px;
-    height: 450px;
+    width: 900px;
+    height: 500px;
     background-color: black;
     background-image: url(./immagini/backg.png);
     background-size: contain;
@@ -25,7 +27,7 @@ body {
 }
 
 li:first-child {
-    background-image: url(./immagini/logo-js.png);
+    background-image: url(./immagini/Js.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -39,6 +41,7 @@ li:nth-child(2) {
     background-size: contain;
     margin-right: 84%;
 }
+
 
 li:nth-child(3) {
     background-image: url(./immagini/1.png);
