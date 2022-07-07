@@ -1,0 +1,49 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin:20px;
+    padding:10px;
+}
+
+.container {
+    padding:10px;
+    color:chocolate;
+    border: 2px solid black;
+    margin:5px;
+    width: 800px;
+    height: 450px;
+    background-color: black;
+    background-image: url(./immagini/backg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.Photo {
+    padding: 10px 10px;
+    width: 150px;
+}
+
+li:first-child {
+    background-image: url(./immagini/logo-js.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-right: 84%;
+}
+
+li:nth-child(2) {
+    background-image: url(./immagini/phyton.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-right: 84%;
+}
+
+li:nth-child(3) {
+    background-image: url(./immagini/1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    margin-right: 84%;
+}
